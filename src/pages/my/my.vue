@@ -21,14 +21,15 @@
 
 <script lang="ts" setup>
 import { useMemberStore } from '@/stores'
-import '@/utils/http'
+import { http } from '@/utils/http'
 const memberStore = useMemberStore()
 
-function getData() {
-  uni.request({
+async function getData() {
+  const res = await http({
     method: 'GET',
-    url: '/home/banner',
+    url: '/member/profile',
   })
+  console.log(res)
 }
 </script>
 
