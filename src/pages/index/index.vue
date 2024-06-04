@@ -11,6 +11,7 @@
 import { ref } from 'vue'
 
 const title = ref('Hello huang')
+console.log('adaw')
 
 const obj = {
   hello: '啊的外地',
