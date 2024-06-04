@@ -3,6 +3,7 @@ pnpm-debug.log*
 package.json
 pages.json
 manifest.json
+README.md
 
 node_modules
 dist
