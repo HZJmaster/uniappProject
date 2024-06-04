@@ -1,12 +1,7 @@
 pnpm-lock.yaml
 pnpm-debug.log*
-package.json
-pages.json
-manifest.json
-README.md
-tsconfig.json
-static
-index.html
+*.scss
+*.json
 
 node_modules
 dist

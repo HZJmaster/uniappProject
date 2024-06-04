@@ -10,6 +10,6 @@ const removeIgnoredFiles = async (files) => {
 module.exports = {
   '*': async (files) => {
     const filesToLint = await removeIgnoredFiles(files)
-    return [`eslint ${filesToLint} --fix`]
+    return [`eslint ${filesToLint} --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix`]
   },
 }
