@@ -5,6 +5,7 @@ pages.json
 manifest.json
 README.md
 tsconfig.json
+static
 
 node_modules
 dist
