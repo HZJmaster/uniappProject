@@ -4,6 +4,7 @@ package.json
 pages.json
 manifest.json
 README.md
+tsconfig.json
 
 node_modules
 dist

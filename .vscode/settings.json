@@ -2,29 +2,13 @@
   // 在保存时格式化文件
   "editor.formatOnSave": true,
   // 文件格式化配置
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   // 配置语言的文件关联
   "files.associations": {
     "pages.json": "jsonc", // pages.json 可以写注释
     "manifest.json": "jsonc" // manifest.json 可以写注释
   },
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit"
-  },
-  "editor.formatOnSaveMode": "file",
-  "editor.formatOnType": true,
-  "editor.formatOnPaste": false,
-  "[typescript]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": "explicit"
-    },
-    "editor.formatOnSaveMode": "file",
-    "editor.formatOnType": true,
-    "editor.formatOnPaste": false
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
