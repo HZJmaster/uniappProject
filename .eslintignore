@@ -6,6 +6,7 @@ manifest.json
 README.md
 tsconfig.json
 static
+index.html
 
 node_modules
 dist
